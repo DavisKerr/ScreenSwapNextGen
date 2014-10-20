@@ -11,5 +11,9 @@
     <string name="HomeButton">Home</string>
     <string name="StartButton">Begin presentation</string>
     <string name="title_activity_screen_third">Third Screen</string>
+    <string name="up">up</string>
+    <string name="down">down</string>
+    <string name="left">left</string>
+    <string name="right">right</string>
 
 </resources>
