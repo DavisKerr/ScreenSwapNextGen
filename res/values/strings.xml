@@ -4,5 +4,12 @@
     <string name="app_name">ScreenSwapNextGen</string>
     <string name="hello_world">Hello world!</string>
     <string name="ButtonText">Click to screen swap</string>
+    <string name="title_activity_second">SecondScreen:D</string>
+    <string name="ButtonTwo">Click me to go back :D</string>
+    <string name="ChangeButton">Next</string>
+    <string name="BackButton">Back</string>
+    <string name="HomeButton">Home</string>
+    <string name="StartButton">Begin presentation</string>
+    <string name="title_activity_screen_third">Third Screen</string>
 
 </resources>

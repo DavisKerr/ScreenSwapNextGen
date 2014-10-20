@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Grey"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/HomeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:background="@color/Red"
+        android:text="@string/HomeButton"
+        android:textColor="@color/Yellow" />
+
+    <Button
+        android:id="@+id/NextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/HomeButton"
+        android:layout_alignBottom="@+id/HomeButton"
+        android:layout_marginLeft="14dp"
+        android:layout_toRightOf="@+id/HomeButton"
+        android:background="@color/Red"
+        android:text="@string/ChangeButton"
+        android:textColor="@color/Yellow" />
+
+</RelativeLayout>

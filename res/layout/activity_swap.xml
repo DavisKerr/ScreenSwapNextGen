@@ -3,17 +3,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/Grey"
+    android:gravity="top"
     tools:context="${relativePackage}.${activityClass}" >
 
     <Button
-        android:id="@+id/button1"
+        android:id="@+id/HomeButton"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
         android:background="@color/Blue"
-        android:text="@string/ButtonText"
+        android:text="@string/StartButton"
         android:textColor="@color/Yellow"
         android:textColorHint="@color/Red"
         android:textColorLink="@color/Red" />
