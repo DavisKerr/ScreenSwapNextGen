@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ScreenSwapNextGen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="ButtonText">Click to screen swap</string>
+
+</resources>
