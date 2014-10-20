@@ -1078,10 +1078,12 @@ containing a value of this type.
         public static final int up=0x7f02005a;
     }
     public static final class id {
+        public static final int Canvas=0x7f05003c;
         public static final int DownButton=0x7f05003e;
         public static final int HomeButton=0x7f050042;
         public static final int LeftButton=0x7f05003f;
         public static final int NextButton=0x7f050043;
+        public static final int Player1=0x7f050041;
         public static final int RightButton=0x7f050040;
         public static final int UpButton=0x7f05003d;
         public static final int action_bar=0x7f05001c;
@@ -1113,8 +1115,6 @@ containing a value of this type.
         public static final int icon=0x7f05002a;
         public static final int ifRoom=0x7f05000a;
         public static final int image=0x7f050027;
-        public static final int imageView1=0x7f05003c;
-        public static final int imageView2=0x7f050041;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050029;
         public static final int middle=0x7f050012;

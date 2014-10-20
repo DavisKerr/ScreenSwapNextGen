@@ -6,7 +6,7 @@
     tools:context="${relativePackage}.${activityClass}" >
 
     <ImageView
-        android:id="@+id/imageView1"
+        android:id="@+id/Canvas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -19,7 +19,7 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/imageView1"
+        android:layout_below="@+id/Canvas"
         android:layout_centerHorizontal="true"
         android:text="@string/up" />
 
@@ -51,10 +51,10 @@
         android:text="@string/right" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/Player1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/imageView1"
+        android:layout_alignBottom="@+id/Canvas"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="15dp"
         android:src="@drawable/player1" />
