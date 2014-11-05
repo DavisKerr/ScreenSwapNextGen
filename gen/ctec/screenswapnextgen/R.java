@@ -1078,14 +1078,13 @@ containing a value of this type.
         public static final int up=0x7f02005a;
     }
     public static final class id {
-        public static final int Canvas=0x7f05003c;
-        public static final int DownButton=0x7f05003e;
-        public static final int HomeButton=0x7f050042;
-        public static final int LeftButton=0x7f05003f;
-        public static final int NextButton=0x7f050043;
-        public static final int Player1=0x7f050041;
-        public static final int RightButton=0x7f050040;
-        public static final int UpButton=0x7f05003d;
+        public static final int DownButton=0x7f05003d;
+        public static final int HomeButton=0x7f050041;
+        public static final int LeftButton=0x7f05003c;
+        public static final int NextButton=0x7f050042;
+        public static final int Paper=0x7f050040;
+        public static final int RightButton=0x7f05003f;
+        public static final int UpButton=0x7f05003e;
         public static final int action_bar=0x7f05001c;
         public static final int action_bar_activity_content=0x7f050015;
         public static final int action_bar_container=0x7f05001b;
@@ -1141,6 +1140,7 @@ containing a value of this type.
         public static final int split_action_bar=0x7f05001e;
         public static final int submit_area=0x7f050039;
         public static final int tabMode=0x7f050002;
+        public static final int textView1=0x7f050043;
         public static final int title=0x7f05002b;
         public static final int top_action_bar=0x7f050020;
         public static final int up=0x7f050021;
@@ -1208,7 +1208,9 @@ containing a value of this type.
         public static final int ButtonTwo=0x7f0a0011;
         public static final int ChangeButton=0x7f0a0012;
         public static final int HomeButton=0x7f0a0014;
+        public static final int PicDescription=0x7f0a001b;
         public static final int StartButton=0x7f0a0015;
+        public static final int Welcome=0x7f0a001c;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abc_action_bar_home_description=0x7f0a0001;
@@ -1252,6 +1254,7 @@ containing a value of this type.
         public static final int app_name=0x7f0a000d;
         public static final int down=0x7f0a0018;
         public static final int hello_world=0x7f0a000e;
+        public static final int hint=0x7f0a001d;
         public static final int left=0x7f0a0019;
         public static final int right=0x7f0a001a;
         public static final int title_activity_screen_third=0x7f0a0016;

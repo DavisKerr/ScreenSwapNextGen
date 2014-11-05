@@ -5,13 +5,14 @@ import ctec.screenswapnextgen.R.layout;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
-public class SecondActivity extends Activity
+public class SecondActivity extends ActionBarActivity
 {
 	private Button HomeButton;
 	private Button NextButton;

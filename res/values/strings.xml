@@ -15,5 +15,8 @@
     <string name="down">down</string>
     <string name="left">left</string>
     <string name="right">right</string>
+    <string name="PicDescription">the player</string>
+    <string name="Welcome">Welcome to the game page!</string>
+    <string name="hint">Type message here</string>
 
 </resources>

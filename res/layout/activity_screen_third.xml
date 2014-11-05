@@ -5,40 +5,13 @@
     android:clickable="false"
     tools:context="${relativePackage}.${activityClass}" >
 
-    <ImageView
-        android:id="@+id/Canvas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="27dp"
-        android:src="@drawable/gamewindow" />
-
-    <Button
-        android:id="@+id/UpButton"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/Canvas"
-        android:layout_centerHorizontal="true"
-        android:text="@string/up" />
-
-    <Button
-        android:id="@+id/DownButton"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/LeftButton"
-        android:layout_centerHorizontal="true"
-        android:text="@string/down" />
-
     <Button
         android:id="@+id/LeftButton"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/UpButton"
-        android:layout_toLeftOf="@+id/UpButton"
+        android:layout_above="@+id/DownButton"
+        android:layout_toRightOf="@+id/UpButton"
         android:text="@string/left" />
 
     <Button
@@ -46,17 +19,38 @@
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/UpButton"
-        android:layout_toRightOf="@+id/UpButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="75dp"
+        android:layout_toLeftOf="@+id/DownButton"
         android:text="@string/right" />
 
-    <ImageView
-        android:id="@+id/Player1"
+    <Button
+        android:id="@+id/DownButton"
+        style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/Canvas"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="15dp"
-        android:src="@drawable/player1" />
+        android:layout_marginBottom="33dp"
+        android:text="@string/down" />
+
+    <Button
+        android:id="@+id/UpButton"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/RightButton"
+        android:layout_centerHorizontal="true"
+        android:text="@string/up" />
+
+    <ImageView
+        android:id="@+id/Paper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/UpButton"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="78dp"
+        android:src="@drawable/gamewindow" />
 
 </RelativeLayout>
